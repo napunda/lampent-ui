@@ -1,0 +1,78 @@
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+
+  /*
+   * Paleta Lampent
+   * #665d99 — roxo corpo
+   * #75a6d4 — azul chama
+   * #edd045 — amarelo chama
+   * #9e9cc4 — lavanda
+   * #b3d0e6 — azul claro
+   * #1e2b30 — sombra escura
+   */
+
+  /* primary — roxo Lampent (#665d99) */
+  --color-primary-50: #f3f2f8;
+  --color-primary-100: #e6e4f0;
+  --color-primary-200: #d0cce3;
+  --color-primary-300: #9e9cc4;
+  --color-primary-400: #827aa8;
+  --color-primary-500: #665d99;
+  --color-primary-600: #564f82;
+  --color-primary-700: #47416b;
+  --color-primary-800: #383455;
+  --color-primary-900: #2a273f;
+  --color-primary-950: #1c1a2a;
+
+  /* success — azul chama (#75a6d4) */
+  --color-success-50: #f0f6fb;
+  --color-success-100: #e1edf7;
+  --color-success-200: #b3d0e6;
+  --color-success-300: #94bce0;
+  --color-success-400: #84b1da;
+  --color-success-500: #75a6d4;
+  --color-success-600: #5f8db8;
+  --color-success-700: #4d759a;
+  --color-success-800: #3d5e7c;
+  --color-success-900: #2f4a61;
+  --color-success-950: #1e3040;
+
+  /* warning — amarelo chama (#edd045) */
+  --color-warning-50: #fdf9eb;
+  --color-warning-100: #fbf2d0;
+  --color-warning-200: #f6e6a1;
+  --color-warning-300: #f0d972;
+  --color-warning-400: #ecc95b;
+  --color-warning-500: #edd045;
+  --color-warning-600: #d4b63a;
+  --color-warning-700: #b19630;
+  --color-warning-800: #8f7826;
+  --color-warning-900: #6d5c1e;
+  --color-warning-950: #453a13;
+
+  /* danger — brasa (derivado da chama) */
+  --color-danger-50: #fdf0ee;
+  --color-danger-100: #f9ddd8;
+  --color-danger-200: #f0b5a8;
+  --color-danger-300: #e68d78;
+  --color-danger-400: #db6349;
+  --color-danger-500: #c9482a;
+  --color-danger-600: #a83b23;
+  --color-danger-700: #87301c;
+  --color-danger-800: #682516;
+  --color-danger-900: #4a1a10;
+  --color-danger-950: #2d1009;
+
+  /* neutral — sombra Lampent (#1e2b30 no 500) */
+  --color-neutral-50: #f0f4f6;
+  --color-neutral-100: #dce6ec;
+  --color-neutral-200: #b3d0e6;
+  --color-neutral-300: #7d929f;
+  --color-neutral-400: #4a5a63;
+  --color-neutral-500: #1e2b30;
+  --color-neutral-600: #192429;
+  --color-neutral-700: #141d21;
+  --color-neutral-800: #0f1619;
+  --color-neutral-900: #0a0f11;
+  --color-neutral-950: #060a0c;
+}

@@ -1,0 +1,73 @@
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build outputs and generated declarations
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+*.lcov
+
+# Vite, VitePress and tooling caches
+.vite/
+.cache/
+.parcel-cache/
+.turbo/
+.nx/
+.temp/
+.tmp/
+.eslintcache
+.stylelintcache
+vite.config.*.timestamp-*
+
+# Generated documentation files
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+docs/.vitepress/.temp/
+# The workspace root lockfile is authoritative for the docs package.
+docs/pnpm-lock.yaml
+
+# Test and browser-runner artifacts
+.nyc_output/
+playwright-report/
+test-results/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+*.local
+
+# Deployment metadata
+.vercel/
+.netlify/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
